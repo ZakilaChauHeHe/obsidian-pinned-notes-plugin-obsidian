@@ -1,0 +1,30 @@
+/* Pinned Notes to Top — styles */
+
+/* Optional: add a subtle pin indicator next to pinned items in the file explorer */
+/* Note: This targets internal Obsidian classes and may break between versions. */
+
+.pinned-note-indicator {
+  display: inline-block;
+  margin-right: 4px;
+  opacity: 0.5;
+  font-size: 0.75em;
+}
+
+/* Style for pinned note rows (if we add a custom class via DOM manipulation later) */
+/* .nav-file.is-pinned {
+  border-left: 2px solid var(--text-accent);
+} */
+
+/* Settings tab styling */
+.pinned-notes-settings-folder {
+  margin-bottom: 8px;
+  padding: 8px;
+  background: var(--background-modifier-form-field);
+  border-radius: 4px;
+}
+
+.pinned-notes-settings-file {
+  padding-left: 12px;
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
